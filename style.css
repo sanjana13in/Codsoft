@@ -1,0 +1,36 @@
+body{
+    font-family: 'Arial',sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('"C:\Users\manoj\Downloads\mycar.jpg"') center/cover no-repeat width="100px"
+    height="60px";
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    text-align: left;
+}
+header,footer{
+    background-color: fuchsia;
+    color:blue;
+    text-align: center;
+    padding: 1em;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    color: darkorange;
+    background-color: cyan;
+
+
+}
+@media (max-width:600px){
+    section{
+        padding: 10px;
+    }
+
+
+}
